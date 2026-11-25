@@ -148,6 +148,26 @@ img { max-width: 100%; }
   line-height: 1.65;
   margin-top: 14px;
 }
+.code-form { margin-top: 8px; }
+.code-input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font: 650 22px/1.2 var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.code-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.code-input.is-bad { border-color: var(--accent); }
+.gate-err { color: var(--accent); }
 
 .btn, .opt {
   border-radius: 18px;
